@@ -1,0 +1,14 @@
+/* font-family: 'Roboto Slab', serif;
+font-family: 'Muli', sans-serif; */
+
+body {
+background-image: url("../img/pizza-1239077_1920.jpg")
+}
+.order {
+    width: 50%;
+    margin: 50px auto;
+    background-color: rgba(245, 245, 245, 0.7);
+    border: 1px solid black;
+    box-shadow: 5px 10px 10px black;
+    display: none;
+}

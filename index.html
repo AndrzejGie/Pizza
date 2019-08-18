@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,700|Roboto+Slab:400,700&display=swap&subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/inputStyle.css">
+    <title>PIZZA</title>
+</head>
+<body>
+    <div class="logo"></div>
+    <i class="fas fa-plus" id="showOrder">Dodaj zamówienie</i>
+
+    <div class="order">
+        <div class="inputBox">
+            <input class="mainInput" id="imie" type="text" placeholder="Imię">
+            <input class="mainInput" id="nazwisko" type="text" placeholder="Nazwisko">
+            <input class="mainInput" id="ulica" type="text" placeholder="Ulica">
+            <input class="mainInput" id="nrDom" type="text" placeholder="nr Domu">
+            <input class="mainInput" id="kodPocz" type="text" placeholder="Kod pocztowy">
+            <input class="mainInput" id="miasto" type="text" placeholder="Miasto">
+        </div>
+        <div class="selectPizza">
+        <select name="" id="mainSelect">
+            <option value="0">---wybierz---</option>
+            <option value="1">Pizza Chłopska</option>
+            <option value="2">Pizza Wegańska</option>
+            <option value="3">Pizza Hawajska</option>
+            <option value="4">Pizza Calzone</option>
+            <option value="5">Pizza Capriciosa</option>
+        </select>
+        <p id="pricePizza">Cena za placka : </p>
+    </div>
+        <div class="sos">
+            <div><input type="checkbox" name="" id="czosnkowy" value="czosnek" class="sosCheckbox">
+                <span class="checkboxSpan">Sos czosnkowy</span></div>
+            <div><input type="checkbox" name="" id="pomidorowy" value="pomidor" class="sosCheckbox">
+                <span class="checkboxSpan">Sos pomidorowy</span></div>
+        </div>
+        <div class="rodo">
+            <input type="checkbox" name="" id="">
+            <span class="checkboxSpan">Zgoda na przetwarzanie danych.</span>
+        </div>
+        <div class="err"></div>
+        <div class="btn-send"><button id="send">ZAMÓW</button></div>
+    </div>
+ 
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

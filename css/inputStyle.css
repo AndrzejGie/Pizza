@@ -1,0 +1,55 @@
+/* font-family: 'Roboto Slab', serif;
+font-family: 'Muli', sans-serif; */
+.fas {
+    font-size: 3rem;
+}
+.mainInput, 
+#mainSelect {
+    border: none;
+    border-bottom: 2px solid black;
+    width: 80%;
+    font-family: 'Muli', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 0.4rem;
+    padding: 0.4rem;
+}
+.inputBox {
+    text-align: center;
+}
+.selectPizza {
+    text-align: center;
+}
+.sos {
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 0.8rem auto;
+}
+.sos div {
+    text-align: center;
+}
+.checkboxSpan {
+    padding: 0.5rem;
+}
+.rodo {
+    width: 80%;
+    font-family: 'Muli', sans-serif;
+    margin: 0.4rem auto;
+    padding: 0.4rem;
+    padding-left: 0;
+}
+.rodo[type=checkbox] {
+    margin: 0;
+}
+.btn-send {
+    width: 80%;
+    margin: 1rem auto;
+}
+#send {
+    width: 100%;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5rem;
+}
+.sosCheckbox {
+
+}
